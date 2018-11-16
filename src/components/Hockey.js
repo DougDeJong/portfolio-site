@@ -1,25 +1,22 @@
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-import {React, Component} from 'react';
+import React, {Component} from 'react';
+import {withRouter} from 'react-router-dom';
 
 
-class Hockey extends Component {
-  constructor(props) {
-    super(props)
-  }
+const Hockey = () => {
 
-
-
-  render(){
     return(
+      <div>
       <TwitterTimelineEmbed
       sourceType="profile"
       screenName="TheDeJtv"
       options={{height: 400}}
     />
+    </div>
     )
   }
-}
 
 
 
-export default Hockey
+
+export default withRouter(Hockey);
