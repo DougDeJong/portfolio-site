@@ -15,6 +15,7 @@ class App extends Component {
             <p>I'm a full-stack Web Developer specializing in the MERN Stack</p>
             <p>I'm also a...</p>
             <p>Type 1 Diabetic | Music Producer | EA Gamechanger | <Link to={'/hockey'}>Hockey Lover</Link></p>
+            <p>Click any of the above to find out more...</p>
           <a
             className="App-link"
             href="https://github.com/DougDeJong"
