@@ -3,11 +3,14 @@ import { Switch, Route, Link} from 'react-router-dom'
 import logo from './logo.svg';
 import myface from './myface.jpg'
 import './App.css';
-import Hockey  from './components/Hockey'
+import Hockey  from './components/Hockey';
+import Navbar from './components/Navbar/Navbar';
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <Navbar/>
               <header className="App-header">
           <img src={myface} className="App-logo" alt="logo" />
           <p>

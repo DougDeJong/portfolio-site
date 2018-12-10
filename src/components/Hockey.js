@@ -14,7 +14,7 @@ const Hockey = () => {
       <TwitterTimelineEmbed
       sourceType="profile"
       screenName="TheDeJtv"
-      options={{height: 400}}
+      options={{height: 400, width: 500}}
     />
     </div>
     )
