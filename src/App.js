@@ -6,6 +6,7 @@ import './App.css';
 import Hockey  from './components/Hockey';
 import Navbar from './components/Navbar/Navbar';
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import CarouselCard from './components/CarouselCard/CarouselCard'
 class App extends Component {
   render() {
     return (
@@ -13,6 +14,7 @@ class App extends Component {
       <Navbar/>
               <header className="App-header">
           <img src={myface} className="App-logo" alt="logo" />
+          <CarouselCard/>
           <p>
             Hi! I'm Douglas DeJong.          </p>
             <p>I'm a full-stack Web Developer specializing in the MERN Stack</p>
